@@ -14,7 +14,7 @@ import install from '../assets/images/solar/instalation.jpg'
 import convert from '../assets/images/solar/conversion.jpg'
 import distro from '../assets/images/solar/distribution.jpg'
 
-import { Container } from './Index_style'
+import { Container } from '../styles/Index_style'
 import TextRightSmall from '../components/TextRightSmall'
 import TextLeftSmall from '../components/TextLeftSmall'
 import SimulationForm from '../components/SimulationForm'

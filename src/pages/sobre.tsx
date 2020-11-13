@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import { Container } from './sobre_styles'
+import { Container } from '../styles/sobre_styles'
 
 import Navbar2 from '../components/Navbar2'
 import Hero from '../components/Hero'
@@ -27,7 +27,7 @@ const AboutPage: React.FC = () => {
               image={atlantica}
               imgText="Atlântica Solar" 
               title="Nossa História"
-              subTitle="SubTitle" 
+              subTitle="" 
               text=""
             >
               <p>A Atlântica Solar, em sua parceria com a Canadian Solar, que possibilita empresas a gerarem energia de forma limpa e barata, através da tecnologia de painéis fotovoltáicos, comumente conhecida como energia solar. Fazemos a análise de viabilidade, juntamente com o design e estruturação da instalação completa. Trabalhamos em parceria com os melhores fornecedores e técnicos para instalação e manutenção dos painéis e inversores para atender com eficiência suas necessidades energéticas.<br/><br/>

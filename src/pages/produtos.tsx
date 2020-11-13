@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { Container } from './produtos_styles'
+import { Container } from '../styles/produtos_styles'
 
 import heroImg from '../assets/images/hero.png'
 import kit_1 from '../assets/images/kitcanadian-1.jpg'

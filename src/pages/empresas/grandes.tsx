@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import React from 'react'
-import { Container } from './grandes_styles'
+import { Container } from '../../styles/grandes_styles'
 
 import Navbar2 from '../../components/Navbar2'
 import Hero from '../../components/Hero'

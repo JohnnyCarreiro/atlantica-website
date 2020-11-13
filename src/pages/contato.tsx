@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { Container } from './conatato_styles'
+import { Container } from '../styles/conatato_styles'
 
 import heroImg from '../assets/images/hero.png'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 
-import { Container } from './servicos_styles'
+import { Container } from '../styles/sobre_styles'
 
 import heroImg from '../assets/images/hero.png'
 import bluePrintImg from '../assets/images/bluePrint.jpg'
