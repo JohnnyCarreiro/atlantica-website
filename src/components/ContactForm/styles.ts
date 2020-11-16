@@ -123,5 +123,8 @@ export const Container = styled.div`
         .mainText h3{
             padding:0;
         }
+        .mainText h2{
+            padding-top:32px;
+        }
     }
 `;
