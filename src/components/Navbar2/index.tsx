@@ -30,8 +30,8 @@ const Navbar: React.FC<NavProps> = ({current}) => {
             </div>
             <div className="mainContacts">
               <ul>
-                <li><a href="">11 99999-9999</a></li>
-                <li><a href="">contato@atlanticasolar.com.br</a></li>
+                <li><a href="tel:+5511998253434">11 99825-3434</a></li>
+                <li><a href="mailto:contato@atlanticasolar.com.br">contato@atlanticasolar.com.br</a></li>
               </ul>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Navbar: React.FC<NavProps> = ({current}) => {
         <BottomNavBar>
           <NavContainer >
             <div className="logoPlaceHolder" >
-              <a href="#"> <img src={logo} alt="Logo Atlântica Solar"/> </a>
+              <a href="/"> <img src={logo} alt="Logo Atlântica Solar"/> </a>
             </div>
             <nav className={display ? 'showMenu' : ''}>
               <ul>

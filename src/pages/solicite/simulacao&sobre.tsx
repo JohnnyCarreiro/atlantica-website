@@ -67,7 +67,7 @@ const AboutPage: React.FC = () => {
               text="A Atlântica Solar, em sua parceria com a Canadian Solar, que possibilita empresas a gerarem energia de forma limpa e barata, através da tecnologia de painéis fotovoltáicos, comumente conhecida como energia solar. Fazemos a análise de viabilidade, juntamente com o design e estruturação da instalação completa. Trabalhamos em parceria com os melhores fornecedores e técnicos para instalação e manutenção  dos painéis e inversores para atender com eficiência suas necessidades energéticas."
             />
             <SimulationForm
-              sourceFrom="mkt"
+              sourceFrom="RAC"
               title="Simulação"
             >
               <p>

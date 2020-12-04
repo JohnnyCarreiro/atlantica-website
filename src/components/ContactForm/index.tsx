@@ -54,13 +54,13 @@ const ContactForm: React.FC = () => {
           <h3>Estes são os nossos principais contatos, estamos ansiosos para falar com você e ver como podemos te ajudar!</h3>
           <div className="contacts">
             <div className="phone">
-              <a><FaPhone />11 11 99825-3434</a>
+              <a href="tel:+5511998253434"><FaPhone />+55 11 99825-3434</a>
             </div>
             <div className="address">
             <a><FaMapMarker />Rua Gustavo Ambrust, Nova Campinas, Campinas - SP</a>
             </div>
             <div className="email">
-              <a><MdMail />contato@atlanticasolar.com.br</a>
+              <a href="mailto:contato@atlanticasolar.com.br"><MdMail />contato@atlanticasolar.com.br</a>
             </div>
           </div>
         </div>
