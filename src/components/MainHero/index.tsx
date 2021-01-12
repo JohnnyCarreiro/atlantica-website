@@ -9,8 +9,8 @@ const MainHero: React.FC = () => {
     <Container>
       <div className="mainHero wrapperColumn">
         <h3>SAIA DO ESCURO, CHEGOU A SOLUÇÃO EM ENERGIA SOLAR</h3>
-        <h2>Somos a ATLÂNTICA SOLAR SA.</h2>
-        <p>A Atlântica Solar SA., em sua parceria com a Canadian Solar, que possibilita empresas a gerarem energia de forma limpa e barata, através da tecnologia de painéis fotovoltáicos, comumente conhecida como energia solar. Fazemos a análise de viabilidade, juntamente com o design e estruturação da instalação completa. Trabalhamos em parceria com os melhores fornecedores e técnicos para instalação e manutenção  dos painéis e inversores para atender com eficiência suas necessidades energéticas.</p>
+        <h2>Somos a ATLÂNTICA SOLAR S.A.</h2>
+        <p>A Atlântica Solar S.A., em sua parceria com a Canadian Solar, que possibilita empresas a gerarem energia de forma limpa e barata, através da tecnologia de painéis fotovoltáicos, comumente conhecida como energia solar. Fazemos a análise de viabilidade, juntamente com o design e estruturação da instalação completa. Trabalhamos em parceria com os melhores fornecedores e técnicos para instalação e manutenção  dos painéis e inversores para atender com eficiência suas necessidades energéticas.</p>
         <Button text="Saiba Mais" link="/sobre"/>
       </div>
     </Container>

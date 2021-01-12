@@ -20,25 +20,25 @@ const AboutPage: React.FC = () => {
       </Head>
       <Navbar2 current="Sobre" />
       <Container>
-        <Hero image={heroImg} current="Sobre" title="Somos a ATLÂNTICA SOLAR SA."/>
+        <Hero image={heroImg} current="Sobre" title="Somos a ATLÂNTICA SOLAR S.A."/>
         <div className="mainContainer">
           <div className="wrapperColumn">
             <TextRightMain
               image={atlantica}
-              imgText="Atlântica Solar SA." 
+              imgText="Atlântica Solar S.A." 
               title="Nossa História"
               subTitle="" 
               text=""
             >
-              <p>A Atlântica Solar SA, em sua parceria com a Canadian Solar, que possibilita empresas a gerarem energia de forma limpa e barata, através da tecnologia de painéis fotovoltáicos, comumente conhecida como energia solar. Fazemos a análise de viabilidade, juntamente com o design e estruturação da instalação completa. Trabalhamos em parceria com os melhores fornecedores e técnicos para instalação e manutenção dos painéis e inversores para atender com eficiência suas necessidades energéticas.<br/><br/>
-              A Atlântica Solar SA foi criada com o intuito de explorar a área e tecnologias em geração de energia limpa e sustentável através dos painéis de células fotovoltaicas. Com toda a bagagem que temos hoje estamos aptos a utilizar deste conhecimento e tecnologias para solucionar problemas em relação a geração de energia elétrica para suprir as necessidades e redução de custos para empresas de todos os portes e segmentos.<br/><br/>
+              <p>A Atlântica Solar S.A., em sua parceria com a Canadian Solar, que possibilita empresas a gerarem energia de forma limpa e barata, através da tecnologia de painéis fotovoltáicos, comumente conhecida como energia solar. Fazemos a análise de viabilidade, juntamente com o design e estruturação da instalação completa. Trabalhamos em parceria com os melhores fornecedores e técnicos para instalação e manutenção dos painéis e inversores para atender com eficiência suas necessidades energéticas.<br/><br/>
+              A Atlântica Solar S.A. foi criada com o intuito de explorar a área e tecnologias em geração de energia limpa e sustentável através dos painéis de células fotovoltaicas. Com toda a bagagem que temos hoje estamos aptos a utilizar deste conhecimento e tecnologias para solucionar problemas em relação a geração de energia elétrica para suprir as necessidades e redução de custos para empresas de todos os portes e segmentos.<br/><br/>
               Seus idealizados estão constantemente engajados em buscar parceiros, tecnologias e treinar seus colaboradores, para que a Atlântica Solar SA possa se focar em solucionar problemas e não em ser mais uma empresa que vende e instala painéis solares.</p>
             </TextRightMain>
             <div className="partiners">
               <h2>Nossos Parceiros</h2>
               <TextLeftSmall 
                 image={heroImg}
-                imgText="Atlântica Solar" 
+                imgText="Atlântica Solar S.A." 
                 title="Canadian Solar"
                 text=""
               >

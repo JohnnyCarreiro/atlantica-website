@@ -97,7 +97,7 @@ const IndexPage = () => (
             <TextRightSmall 
               image={install}
               imgText="image"
-              title='Capitação'
+              title='Captação'
             >
               <p>
               A luz do sol é captada durante o dia pelos painéis solares, conhecidos também como módulos fotovoltaicos, e transformada em energia. Para uma melhor eficiência na conversão da radiação solar em energia elétrica, é fundamental que a radiação solar incida diretamente nas células fotovoltaicas. Portanto, quanto maior a incidência de luz direta no painel solar, maior será a produção de energia.<br/><br/>
