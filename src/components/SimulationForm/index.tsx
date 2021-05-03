@@ -2,7 +2,6 @@ import React, {FormEvent, useState} from 'react';
 import api from '../../services/api';
 import Input from '../Input';
 import TextArea from '../TextArea';
-import { useRouter } from 'next/router';
 
 import bluePrint from '../../assets/images/bluePrint.jpg'
 
@@ -24,8 +23,6 @@ const SimulationForm: React.FC<SimulationProps> = ({image,sourceFrom,title, text
   const [zipcode, setZipcode] = useState('')
   const [observation, setObservation] = useState('')
 
-  const router = useRouter()
-
   const handleSubmitingForm = (event:FormEvent) => {
     event.preventDefault()
     api.post('/simulations',{
@@ -40,7 +37,8 @@ const SimulationForm: React.FC<SimulationProps> = ({image,sourceFrom,title, text
     }).then((response)=>{
       response.statusText
       alert('Contato Enviado com sucesso!')
-      router.push('/')
+    }).then(()=>{
+      setTimeout("location.href = '/';", 1000)
     }).catch(()=>{
       alert('Erro ao enviar Contato')
       setTimeout(1000);
