@@ -30,7 +30,6 @@
     "@types/react-icons": "^3.0.0",
     "@types/styled-components": "^5.1.4",
     "babel-plugin-styled-components": "^1.11.1",
-    "netlify-plugin-next-dynamic": "^1.0.9",
     "typescript": "4.0"
   },
   "license": "MIT"
