@@ -1,6 +1,6 @@
 import React, {FormEvent, useState} from 'react';
 import dynamic from 'next/dynamic'
-import Router  from 'next/router'
+import { useRouter }  from 'next/router'
 
 import Input from '../Input';
 import TextArea from '../TextArea';
@@ -19,6 +19,8 @@ const ContactForm: React.FC = () => {
   const [phone, setPhone] = useState('')
   const [observation, setObservation] = useState('')
 
+  const router = useRouter()
+
   const handleSubmitingForm = (event:FormEvent) => {
     event.preventDefault()
     api.post('/contacts',{
@@ -29,7 +31,7 @@ const ContactForm: React.FC = () => {
     }).then((response)=>{
       response.statusText
       alert('Contato Enviado com sucesso!')
-      Router.push('/')
+      router.push('/')
     }).catch(()=>{
       alert('Erro ao enviar Contato')
       setTimeout(1000);
