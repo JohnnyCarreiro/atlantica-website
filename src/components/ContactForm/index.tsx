@@ -1,6 +1,5 @@
 import React, {FormEvent, useState} from 'react';
 import dynamic from 'next/dynamic'
-import { Router } from 'next/router'
 
 import Input from '../Input';
 import TextArea from '../TextArea';
