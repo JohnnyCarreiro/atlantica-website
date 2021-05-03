@@ -1,5 +1,6 @@
 import React, {FormEvent, useState} from 'react';
 import dynamic from 'next/dynamic'
+import Router  from 'next/router'
 
 import Input from '../Input';
 import TextArea from '../TextArea';
@@ -29,7 +30,7 @@ const ContactForm: React.FC = () => {
       response.statusText
       alert('Contato Enviado com sucesso!')
     }).then(()=>{
-      setTimeout("location.href = '/';", 1000)
+      Router.push('/')
     }).catch(()=>{
       alert('Erro ao enviar Contato')
       setTimeout(1000);

@@ -2,6 +2,7 @@ import React, {FormEvent, useState} from 'react';
 import api from '../../services/api';
 import Input from '../Input';
 import TextArea from '../TextArea';
+import Router from 'next/router';
 
 import bluePrint from '../../assets/images/bluePrint.jpg'
 
@@ -38,7 +39,7 @@ const SimulationForm: React.FC<SimulationProps> = ({image,sourceFrom,title, text
       response.statusText
       alert('Contato Enviado com sucesso!')
     }).then(()=>{
-      setTimeout("location.href = '/';", 1000)
+      Router.push('/')
     }).catch(()=>{
       alert('Erro ao enviar Contato')
       setTimeout(1000);
