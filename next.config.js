@@ -3,5 +3,6 @@ module.exports = withImages({
   fileExtensions: ["jpg", "jpeg", "png", "gif", "svg", "ico"],
   webpack(config, options) {
     return config
-  }
+  },
+  target: "serverless"
 })

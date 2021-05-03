@@ -8,9 +8,11 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^3.2.2",
     "@types/react-leaflet": "^2.5.2",
     "axios": "^0.21.0",
     "leaflet": "^1.7.1",
+    "netlify-plugin-next-dynamic": "^1.0.9",
     "next": "latest",
     "next-images": "^1.6.2",
     "nodemailer": "^6.6.0",
