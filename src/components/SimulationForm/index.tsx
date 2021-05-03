@@ -38,7 +38,6 @@ const SimulationForm: React.FC<SimulationProps> = ({image,sourceFrom,title, text
     }).then((response)=>{
       response.statusText
       alert('Contato Enviado com sucesso!')
-    }).then(()=>{
       Router.push('/')
     }).catch(()=>{
       alert('Erro ao enviar Contato')
