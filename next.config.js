@@ -5,6 +5,3 @@ module.exports = withImages({
     return config
   }
 })
-module.exports = {
-  target: "serverless"
-}

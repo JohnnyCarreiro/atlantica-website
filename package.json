@@ -7,11 +7,9 @@
     "start": "next start -p 1221",
     "type-check": "tsc"
   },
-  "dependencies": {
-    "@types/react-leaflet": "^2.5.2",
+  "dependencies": {    "@types/react-leaflet": "^2.5.2",
     "axios": "^0.21.0",
-    "leaflet": "^1.7.1",
-    "next": "latest",
+    "leaflet": "^1.7.1",    "next": "latest",
     "next-images": "^1.6.2",
     "nodemailer": "^6.6.0",
     "react": "^16.12.0",
@@ -30,7 +28,10 @@
     "@types/react-icons": "^3.0.0",
     "@types/styled-components": "^5.1.4",
     "babel-plugin-styled-components": "^1.11.1",
-    "typescript": "4.0"
+    "typescript": "4.0",
+    "@netlify/plugin-nextjs": "^3.2.2",
+    "netlify-plugin-next-dynamic": "^1.0.9"
+
   },
   "license": "MIT"
 }
