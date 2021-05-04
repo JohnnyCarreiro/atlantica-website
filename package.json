@@ -11,7 +11,7 @@
     "@types/react-leaflet": "^2.5.2",
     "axios": "^0.21.0",
     "leaflet": "^1.7.1",
-    "next": "^10.0.0",
+    "next": "^10.2.0",
     "next-images": "^1.6.2",
     "nodemailer": "^6.6.0",
     "react": "^16.12.0",
